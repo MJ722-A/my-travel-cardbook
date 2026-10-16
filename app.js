@@ -16,7 +16,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 // 2. TourAPI 설정 (디코딩된 원문 인증키 그대로 입력)
-const TOUR_API_KEY = "YOUR_TOUR_API_KEY"; 
+const TOUR_API_KEY = "ccb365c1b74b195ab9e40e0e1b33f1e3cfecc4a493866b744863644ce55c023d"; 
 
 const areaSelect = document.getElementById("areaSelect");
 const cardContainer = document.getElementById("cardContainer");
