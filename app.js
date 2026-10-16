@@ -3,12 +3,13 @@ import { getFirestore, doc, setDoc, getDoc } from "https://www.gstatic.com/fireb
 
 // 1. Firebase 설정 (본인의 프로젝트 키로 수정하세요)
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAgQ8774AWrgX8a5HMDZzlIk29842mm6CQ",
+  authDomain: "my-first-app-21578.firebaseapp.com",
+  databaseURL: "https://my-first-app-21578-default-rtdb.firebaseio.com",
+  projectId: "my-first-app-21578",
+  storageBucket: "my-first-app-21578.firebasestorage.app",
+  messagingSenderId: "201358884999",
+  appId: "1:201358884999:web:5233ff347f2f2dc337b822"
 };
 
 const app = initializeApp(firebaseConfig);
