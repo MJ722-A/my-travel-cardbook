@@ -23,7 +23,7 @@ const cardContainer = document.getElementById("cardContainer");
 
 // 3. TourAPI 4.0 지역 기반 관광정보 조회 함수
 async function fetchTravelData(areaCode) {
-  const url = `https://apis.data.go.kr/B551011/KorService1/areaBasedList1?serviceKey=${TOUR_API_KEY}&numOfRows=12&pageNo=1&MobileOS=ETC&MobileApp=AppTest&_type=json&areaCode=${areaCode}`;
+  const url = `http://apis.data.go.kr/B551011/KorService2/areaBasedList2?serviceKey=${TOUR_API_KEY}&numOfRows=12&pageNo=1&MobileOS=ETC&MobileApp=AppTest&_type=json&areaCode=${areaCode}`;
 
   try {
     const response = await fetch(url);
